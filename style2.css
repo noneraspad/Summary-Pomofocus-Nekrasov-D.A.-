@@ -1,0 +1,1379 @@
+.body{
+    background-color: black;
+}
+
+.frameblock{
+    border: 2px solid white
+}
+
+.PhotoMe{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.RedBlock{
+    width: 322px;
+    height: 600px;
+    background-color: #F51B1B;
+    border-radius: 24px 24px 0px 0px;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+}
+
+.WhiteBlock{
+    position: absolute;
+    width: 1200px;
+    height: 625px;
+    border: 1px solid white;
+    top: 353.5px;
+    left: 405px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+}
+
+
+.Add{
+    position: absolute;
+    top: 353.5px;
+    left: 475px;
+    width: 60px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+
+.InfoWhoIam{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 405px;
+    line-height: 125%;
+}
+
+.SplitOne{
+    position: absolute;
+    width: 1100px;
+    height: 0px;
+    border: 1px solid gray;
+    top: 500px;
+    left: 446px;
+}
+
+.Education{
+    position: absolute;
+    font-family: Redcollar;
+    color: white;
+    font-size: 22px;
+    top: 400px;
+    left: 446px;
+}
+
+.GrayBlockTest{
+    position: absolute;
+    margin: 0 auto;
+    width: 1200px;
+    height: 625px;
+    background: black;
+    top: 1013.5px;
+    left: 406px;
+}
+
+
+.EducationWhere{
+    position: absolute;
+    font-family: TT Commons;
+    color: white;
+    font-size: 20px;
+    top: 402px;
+    left: 650px;
+}
+
+.EducationFac{
+    position: absolute;
+    font-family: TT Commons;
+    color: darkgrey;
+    font-size: 20px;
+    top: 432px;
+    left: 650px;
+}
+
+.EducationLong{
+    position: absolute;
+    font-family: TT Commons;
+    color: darkgrey;
+    font-size: 20px;
+    top: 462px;
+    left: 650px;
+}
+
+.SplitTwo{
+    position: absolute;
+    width: 1100px;
+    height: 0px;
+    border: 1px solid gray;
+    top: 600px;
+    left: 446px;
+}
+
+#rectangleblack {
+    position: absolute;
+    top: 1195px;
+    left: 680.6px;
+    width: 652px;
+    height: 423px;
+    background: black;
+    align-content: center;
+    justify-items: center;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    font-family: Redcollar;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+#input-box{
+    position: absolute;
+    top: auto;
+    left: auto;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+#buttontodo{
+    position: relative;
+    left: 350px;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #F51B1B;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li{
+    color: black;
+    list-style: none;
+    font-size: 17px;
+    padding: 15px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(image/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+
+ul li.checke{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checke::before{
+    background-image: url(image/checked.png);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    background: #edeef0;
+    
+}
+
+
+
+/*-------TODO---------*/
+
+
+
+/*--------------------*/
+.SplitThree{
+    position: absolute;
+    left: 705.5px;
+    top: 1265px;
+    width: 600px;
+    height: 0px;
+    border: 1px solid gray;
+    z-index: 102;
+}
+
+.SplitFour{
+    position: absolute;
+    left: 705.5px;
+    top: 1065px;
+    width: 600px;
+    height: 0px;
+    border: 1px solid gray;
+    z-index: 50;
+}
+
+
+/*--------------------*/
+
+.time{
+    position: absolute;
+    align-content: center;
+    justify-items: center;
+    top: 1100px;
+    left: 950px;
+    color: white;
+    font-size: 30px;
+    font-family: Redcollar;
+}
+
+.buttons{
+    position: absolute;
+    align-content: center;
+    justify-items: center;
+    top: 1170px;
+    left: 921.5px;
+}
+
+.add{
+    position: absolute;
+    align-content: center;
+    justify-items: center;
+    top: 1170px;
+    left: 921.5px;
+}
+
+input{
+    position: absolute;
+    left: 907px;
+    top: 1136px;
+}
+
+
+.Pomodoro{
+    position: absolute;
+    top: 1031px;
+    left: 845px;
+    font-size: 18px;
+    color: white;
+    font-family: Redcollar;
+}
+
+.TodoListClass{
+    position: absolute;
+    top: 1233px;
+    left: 965px;
+    font-size: 18px;
+    color: white;
+    font-family: Redcollar;
+}
+
+.yourlist{
+    position: absolute;
+    top: 1290px;
+    left: 930px;
+    font-size: 18px;
+    color: white;
+    font-family: Redcollar;
+}
+
+.affairs{
+    position: absolute;
+    top: 1310px;
+    left: 970px;
+    font-size: 18px;
+    color: white;
+    font-family: Redcollar;
+}
+
+.Shorttt{
+    position: absolute;
+    top: 1031px;
+    left: 1020px;
+    font-size: 18px;
+    color: white;
+    font-family: Redcollar;
+}
+
+.Longgg{
+    position: absolute;
+    top: 1031px;
+    left: 1150px;
+    font-size: 18px;
+    color: white;
+    font-family: Redcollar;
+}
+/*--------------------*/
+.rdclrtimer{
+    position: absolute;
+    color: white;
+    font-family: Redcollar;
+    font-size: 22px;
+    top: 1028px;
+    left: 705px;
+    z-index: 100;
+}
+
+.rdclrtodo{
+    position: absolute;
+    color: white;
+    font-family: Redcollar;
+    font-size: 22px;
+    top: 1230px;
+    left: 705px;
+    z-index: 101;
+}
+
+.addbut{
+    position: absolute;
+    top: 1365px;
+    left: 955px;
+}
+
+.Set{
+    position: absolute;
+    top: 1024px;
+    left: 1249.5px;
+    font-size: 13px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    align-items: center;
+    background: #0a0a0a;
+    text-align: center;
+    display: flex;
+    padding: 6px;
+}
+
+.Set:hover {
+    background: #141414;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all .09s ease-out;
+}
+
+.modal.show{
+    visibility: visible;
+    z-index: 100;
+    opacity: 1;
+}
+
+.modal .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7
+}
+
+.modal-windows{
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0, .4);
+    background-color: white;
+    padding: 30px;
+}
+
+.btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background-color: none;
+    opacity: 0.7;
+}
+
+.btn-close:hover{
+    opacity: 1;
+}
+
+.Skills{
+    position: absolute;
+    font-family: Redcollar;
+    color: white;
+    font-size: 22px;
+    top: 550px;
+    left: 446px;
+}
+
+.SkillsHTML{
+    position: absolute;
+    font-family: TT Commons;
+    color: white;
+    font-size: 20px;
+    top: 551.5px;
+    left: 650px;
+}
+
+.SkillsCSS{
+    position: absolute;
+    font-family: TT Commons;
+    color: white;
+    font-size: 20px;
+    top: 551.5px;
+    left: 750px;
+}
+
+.SkillsJS{
+    position: absolute;
+    font-family: TT Commons;
+    color: white;
+    font-size: 20px;
+    top: 551.5px;
+    left: 830px;
+}
+
+.SkillsPY{
+    position: absolute;
+    font-family: TT Commons;
+    color: white;
+    font-size: 20px;
+    top: 551.5px;
+    left: 960px;
+}
+
+.SkillsSQL{
+    position: absolute;
+    font-family: TT Commons;
+    color: white;
+    font-size: 20px;
+    top: 551.5px;
+    left: 1060px;
+}
+
+.Union{
+    position: absolute;
+    top: -19px;
+    left: 130px;
+}
+
+.ImageLogo{
+    position: absolute;
+    top: 25px;
+    left: 1365px;
+}
+
+.Git{
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
+
+.naderzi{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Name{
+    font-size: 24px;
+    font-family: Redcollar;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+
+.AgeCity{
+    font-size: 20px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.Phone{
+    position: absolute;
+    top: 70px;
+    left: 15px;
+}
+
+.Mail{
+    position: absolute;
+    top: 95px;
+    left: 15px;
+}
+
+.Telegram{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
+.GitHub{
+    position: absolute;
+    top: 145px;
+    left: 15px;
+}
+
+.Num{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 140px;
+}
+
+.MailMy{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 190px;
+}
+
+.tg{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 240px;
+}
+
+.gitt{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 290px;
+}
+
+@media (max-width: 2800px) {
+    
+    body{
+        background-color: black;
+    }  
+    
+}
+
+@media (max-width: 1440px) {
+    
+    body{
+        background-color: black;
+    }
+    
+    .ImageLogo{
+        position: absolute;
+        top: 15px;
+        left: 1185px;
+    }
+    
+    .WhiteBlock{
+        position: absolute;
+        width: 995px;
+        height: 625px;
+        border: 1px solid white;
+        top: 353.5px;
+        left: 405px;
+        color: white;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.18px;
+    }
+    
+    .SplitOne{
+        position: absolute;
+        width: 910px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 500px;
+        left: 446px;
+    }
+    .SplitTwo{
+        position: absolute;
+        width: 910px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 600px;
+        left: 446px;
+    }
+    .rdclrtimer{
+        position: absolute;
+        color: white;
+        font-family: Redcollar;
+        font-size: 22px;
+        top: 1028px;
+        left: 446px;
+        z-index: 100;
+    }
+    .rdclrtodo{
+        position: absolute;
+        color: white;
+        font-family: Redcollar;
+        font-size: 22px;
+        top: 1280px;
+        left: 446px;
+        z-index: 101;
+    }
+    .SplitThree{
+        position: absolute;
+        width: 600px;
+        height: 0px;
+        border: 1px solid gray;
+        left: 450px;
+    }
+    .SplitFour{
+        position: absolute;
+        width: 600px;
+        height: 0px;
+        border: 1px solid gray;
+        left: 450px;
+    }
+    .Pomodoro{
+        position: absolute;
+        top: 1031px;
+        left: 645px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Shorttt {
+        position: absolute;
+        top: 1031px;
+        left: 800px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Longgg {
+        position: absolute;
+        top: 1031px;
+        left: 900px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Set {
+        position: absolute;
+        top: 1024px;
+        left: 989.5px;
+        font-size: 13px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        align-items: center;
+        background: #0a0a0a;
+        text-align: center;
+        display: flex;
+        padding: 6px;
+    }   
+    input {
+        position: absolute;
+        left: 660px;
+        top: 1136px;
+    }   
+    .time {
+        position: absolute;
+        align-content: center;
+        justify-items: center;
+        top: 1100px;
+        left: 700px;
+        color: white;
+        font-size: 30px;
+        font-family: Redcollar;
+    }
+    #rectangleblack {
+        position: absolute;
+        top: 1230px;
+        left: 421.2px;
+        width: 652px;
+        height: 423px;
+        background: black;
+        align-content: center;
+        justify-items: center;
+    }
+    .buttons{
+        position: absolute;
+        align-content: center;
+        justify-items: center;
+        top: 1170px;
+        left: 675px;
+    }
+}
+
+@media (max-width: 880px) {
+    
+    body{
+        background-color: black;
+    }
+    
+    .ImageLogo{
+        position: absolute;
+        top: 15px;
+        left: 625px;
+    }
+    
+    .WhiteBlock{
+        position: absolute;
+        width: 440px;
+        height: 625px;
+        border: 1px solid white;
+        top: 353.5px;
+        left: 405px;
+        color: white;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.18px;
+    
+    }
+    
+    .EducationFac{
+        position: absolute;
+        color: darkgrey;
+        font-size: 20px;
+        top: 432px;
+        left: 575px;
+    }  
+    
+    .EducationLong{
+        position: absolute;
+        color: darkgrey;
+        font-size: 20px;
+        top: 462px;
+        left: 640px;
+    }
+    
+    .SplitOne{
+        position: absolute;
+        width: 355px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 500px;
+        left: 446px;
+    }
+    .SplitTwo{
+        position: absolute;
+        width: 355px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 670px;
+        left: 446px;
+    }
+    
+    .SkillsHTML{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 591.5px;
+        left: 446px;
+    }
+
+    .SkillsCSS{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 591.5px;
+        left: 546px;
+    }
+
+    .SkillsJS{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 591.5px;
+        left: 625px;
+    }
+
+    .SkillsPY{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 591.5px;
+        left: 745px;
+    }
+
+    .SkillsSQL{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 631.5px;
+        left: 446px;
+    }
+    .rdclrtimer{
+        position: absolute;
+        color: white;
+        font-family: Redcollar;
+        font-size: 22px;
+        top: 1028px;
+        left: 446px;
+        z-index: 100;
+    }
+    .SplitThree{
+        position: absolute;
+        width: 355px;
+        height: 0px;
+        border: 1px solid gray;
+    }
+    .SplitFour{
+        position: absolute;
+        width: 355px;
+        height: 0px;
+        border: 1px solid gray;
+    }
+    .Pomodoro{
+        position: absolute;
+        top: 1081px;
+        left: 446px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Shorttt{
+        position: absolute;
+        top: 1081px;
+        left: 620px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Longgg{
+        position: absolute;
+        top: 1081px;
+        left: 754.5px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Set {
+        position: absolute;
+        top: 1024px;
+        left: 744.5px;
+        font-size: 13px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        align-items: center;
+        background: #0a0a0a;
+        text-align: center;
+        display: flex;
+        padding: 6px;
+    }
+    .time{
+        position: absolute;
+        align-content: center;
+        justify-items: center;
+        top: 1110px;
+        left: 600px;
+        color: white;
+        font-size: 30px;
+        font-family: Redcollar; 
+    }
+    input {
+        position: absolute;
+        left: 560px;
+        top: 1146px;
+    }
+    .buttons {
+        position: absolute;
+        align-content: center;
+        justify-items: center;
+        top: 1180px;
+        left: 575px;
+    }
+    .todo-app{
+        width: 100%;
+        max-width: 325px;
+        background: white;
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 10px;
+    }
+    #rectangleblack {
+        position: absolute;
+        top: 1230px;
+        left: 312px;
+        width: 652px;
+        height: 423px;
+        background: black;
+        align-content: center;
+        justify-items: center;
+    }
+    .rdclrtodo {
+        position: absolute;
+        color: white;
+        font-family: Redcollar;
+        font-size: 22px;
+        top: 1260px;
+        left: 445px;
+        z-index: 101;
+    }
+    #buttontodo {
+        position: relative;
+        left: 200px;
+        border: none;
+        outline: none;
+        padding: 16px 16px;
+        background: #F51B1B;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .ImageLogo{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+        
+    .PhotoMe{
+        position: absolute;
+        top: 50px;
+        left: 15px;
+    }
+        
+    body{
+        background-color: black;
+    }
+    
+    .RedBlock{
+        width: 322px;
+        height: 375px;
+        background-color: #F51B1B;
+        border-radius: 24px 24px 0px 0px;
+        position: absolute;
+        top: 380px;
+        left: 15px;
+    }
+    
+    .InfoWhoIam{
+        width: 320px;
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        top: 790px;
+        left: 15px;
+        line-height: 125%;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: -0.18px;
+        flex-direction: column;
+        overflow:hidden;
+    }
+    
+    .Name{
+        width: 300px;
+        height: auto;
+        font-size: 20px;
+        font-family: Redcollar;
+        font-style: normal;
+        font-weight: 320;
+        line-height: 28px;
+        letter-spacing: -0.48px;
+        color: white;
+        position: absolute;
+        left: 30px;
+    }
+    
+    .AgeCity{
+        font-size: 16px;
+        font-family: TT Commons;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.4px;
+        color: white;
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+    
+        .Num{
+        font-size: 16px;
+        color: white;
+        position: absolute;
+        left: 60px;
+        top: 120px;
+    }
+
+    .MailMy{
+        font-size: 16px;
+        color: white;
+        position: absolute;
+        left: 60px;
+        top: 170px;
+    }
+
+    .tg{
+        font-size: 16px;
+        color: white;
+        position: absolute;
+        left: 60px;
+        top: 220px;
+    }
+
+    .gitt{
+        font-size: 16px;
+        color: white;
+        position: absolute;
+        left: 60px;
+        top: 270px;
+    }
+    
+    .Phone{
+        position: absolute;
+        top: 58px;
+        left: 15px;
+    }
+
+    .Mail{
+     position: absolute;
+        top: 83px;
+        left: 15px;
+    }
+
+    .Telegram{
+        position: absolute;
+        top: 107px;
+        left: 15px;
+    }
+
+    .GitHub{
+        position: absolute;
+        top: 133px;
+        left: 15px;
+    }   
+    
+    .WhiteBlock{
+        position: absolute;
+        width: 318px;
+        height: 300px;
+        border: 1px solid white;
+        top: 1050px;
+        left: 15px;
+        color: white;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.18px;
+    }
+    
+    .Add{
+        position: absolute;
+        top: 1050px;
+        left: 135px;
+        width: 60px;
+        height: 20px;
+        flex-shrink: 0;
+    }   
+    
+    .SplitOne{
+        position: absolute;
+        width: 1100px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 500px;
+        left: 446px;
+    }
+
+    .Education{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1100px;
+        left: 25px;
+    }
+
+    .EducationWhere{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 1130px;
+        left: 25px;
+        overflow:hidden;
+    }
+
+    .EducationFac{
+        position: absolute;
+        color: darkgrey;
+        font-size: 18px;
+        top: 1160px;
+        left: 25px;
+    }
+
+    .EducationLong{
+        position: absolute;
+        color: darkgrey;
+        font-size: 18px;
+        top: 1180px;
+        left: 25px;
+    }
+    
+    .SplitOne{
+        position: absolute;
+        width: 285px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 1215px;
+        left: 25px;
+    }
+    
+    .SplitTwo{
+        position: absolute;
+        width: 1100px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 600px;
+        left: 446px;
+    }
+    
+    .Skills{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1235px;
+        left: 25px;
+    }
+
+    .SkillsHTML{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1275px;
+        left: 25px;
+    }
+
+    .SkillsCSS{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1275px;
+        left: 115px;
+    }
+
+    .SkillsJS{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1275px;
+        left: 190px;
+    }
+
+    .SkillsPY{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1315px;
+        left: 25px;
+    }
+
+    .SkillsSQL{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        top: 1315px;
+        left: 115px;
+    }
+    .rdclrtimer {
+        position: absolute;
+        color: white;
+        font-family: Redcollar;
+        font-size: 22px;
+        top: 1365px;
+        left: 25px;
+        z-index: 100;
+    }
+    .SplitTwo {
+        position: absolute;
+        width: 285px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 1400px;
+        left: 25px;
+    }
+    .Set{
+        position: absolute;
+        top: 1365px;
+        left: 253px;
+        font-size: 13px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        align-items: center;
+        background: #0a0a0a;
+        text-align: center;
+        display: flex;
+        padding: 6px;
+    }
+    .Pomodoro {
+        position: absolute;
+        top: 1415px;
+        left: 25px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Shorttt {
+        position: absolute;
+        top: 1415px;
+        left: 165px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .Longgg {
+        position: absolute;
+        top: 1415px;
+        left: 263px;
+        font-size: 18px;
+        color: white;
+        font-family: Redcollar;
+    }
+    .time {
+        position: absolute;
+        align-content: center;
+        justify-items: center;
+        top: 1445px;
+        left: 125px;
+        color: white;
+        font-size: 30px;
+        font-family: Redcollar;
+    }
+    input {
+        position: absolute;
+        left: 85px;
+        top: 1485px;
+    }
+    .buttons {
+        position: absolute;
+        align-content: center;
+        justify-items: center;
+        top: 1515px;
+        left: 100px;
+    }
+    .SplitTwo {
+        position: absolute;
+        width: 285px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 1400px;
+        left: 25px;
+    }
+    .SplitThree {
+        position: absolute;
+        width: 285px;
+        height: 0px;
+        border: 1px solid gray;
+        top: 1545px;
+        left: 25px;
+    }
+    .rdclrtodo {
+        position: absolute;
+        color: white;
+        font-family: Redcollar;
+        font-size: 22px;
+        top: 1560px;
+        left: 25px;
+        z-index: 101;
+    }
+    #rectangleblack {
+        position: absolute;
+        top: 1560px;
+        left: -158px;
+        width: 652px;
+        height: 423px;
+        background: black;
+        align-content: center;
+        justify-items: center;
+    }
+    .todo-app {
+        width: 100%;
+        max-width: 225px;
+        background: white;
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 10px;
+    }
+    #buttontodo {
+        position: relative;
+        top: -100px;
+        left: 130px;
+        border: none;
+        outline: none;
+        padding: 12px 12px;
+        background: #F51B1B;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
+}
+    

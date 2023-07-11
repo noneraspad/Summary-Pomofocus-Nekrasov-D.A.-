@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+  </head>
+  <body>
+      <div class="ImageLogo">
+          <img class="LogoRC" src="image/Logo.png">
+      </div>
+      <div class="AboutMe">
+          <div class="PhotoMe">
+            <img class="ItsMe" style="width: 322px; height: 355px"  src="image/thatsme.jpg">
+          </div>
+          <div class="RedBlock">
+              <div class="Union">
+                  <img class="Arrow" src="image/Union.png">
+              </div>
+              <div class="InfoAboutMe">
+                  <div class="Name">
+                       <p>Некрасов Дмитрий</p>
+                  </div>
+                  <div class="AgeCity">
+                       <p>20 лет, Воронеж</p>
+                  </div>
+              </div>
+              <div class="GitHub">
+                  <img class="GitHub" src="image/24x-github.png">
+              </div>
+              <div class="Mail">
+                  <img class="Mail" src="image/24x-mail.png">
+              </div>
+              <div class="Phone">
+                  <img class="Phone" src="image/24x-phone.png">
+              </div>
+              <div class="Telegram">
+                  <img class="Telegram" src="image/24x-telegram.png">
+              </div>            
+              <div class = "Num"> +7 920 455 35 50</div>
+              <div class = "MailMy"> nekrasov.d.a@outlook.com</div>
+              <div class = "tg"> tengziplock</div>
+              <div class = "gitt"> 111n33dh31p</div>
+          </div>
+      </div>
+      <div class="InfoWhoIam">
+          Привет, я являюсь студентом 3-го курса из МИКТ, обучающийся на инженера-программиста. <br/> До этого проходил практику в RedCollar, где участие принимали java и python разработчики. <br/>Хочу пройти курс у вас, т.к. до этого был и мне очень нравится RedCollar. <br/>Для меня это тестовое задание было своеобразным хакатоном, т.к. раньше был небольшой<br/> опыт с HTML, но CSS и JS пришлось учить здесь и сейчас.
+      </div>
+      <div class="WhiteBlock"></div>
+      <div class="GrayBlockTest"></div>
+      <div class="SplitThree"></div>
+      <div class="SplitFour"></div>
+   
+      
+      <div class="Pomodoro" id="Pomodo">Pomodoro</div>;
+      <div class="Shorttt" id="Shortbreak">Short</div>;
+      <div class="Longgg" id="Longbreak">Long</div>;
+      
+      <div class="justext">Введите количество секунд:</div>
+      <div class="time">00:00</div>
+      <input id="inputt" type="text" placeholder="Введите кол-во секунд">
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+      </div>
+      
+      <!--
+      
+      <div class="container">
+            <h1 class="PomodoroName">Pomodoro</h1>
+
+            <div class="painel">
+                <p id="work">work</p>
+                <p id="break">short break</p>
+                <p id="longbreak">long break</p>
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p id="dot2">:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play">Start</i></button>
+                <a id="reset" href="./"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </div>
+     </div>
+      
+    -->
+      <div class="rdclrtodo">rdclr.todo</div>
+            <div class="rdclrtimer">rdclr.timer</div>
+      <button class="Set">
+          <img src="image/settingsico.png" alt="config icon">
+          <div class="namebutton" data-easy-toggle="#modalWin" data-easy-class="show">  Info</div>
+      </button>
+      
+      <div id="modalWin" class="modal">
+        <div class="modal-windows">
+          <h1> Настройки </h1>
+          Стандартное помодоро: 25 минут (1500 секунд) <br>
+          Короткий перерыв: 5 минут (300 секунд) <br>
+          Длинный перерыв: 15 минут (900 секунд) <br>
+          <button class="btn-close" data-easy-toggle="#modalWin" data-easy-class="show">X</button>
+        </div>
+        <div class="overlay" data-easy-toggle="#modalWin" data-easy-class="show"></div>
+      </div>
+      
+      
+      
+      <div id="rectangleblack">
+          <div class="todo-app">
+            <h2>To-Do List<img src="image/24x-checklist.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Что будем делать?">
+                <button id="buttontodo" onclick="addTask()">Добавить</button>
+            </div>
+            <ul id="list-container">
+            <!--    <li class="checke">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+          </div>
+      </div>
+      
+      
+      
+      
+      
+      <div class="Add">
+          <img class="AddImg" src="image/arrow.png">
+      </div>
+      <div class="SplitOne"></div>
+      <div class="Education">Образование</div>
+      <div class="EducationWhere">МИКТ</div>
+      <div class="EducationFac">Информационные системы</div>
+      <div class="EducationLong">2018-2023</div>
+      <div class="SplitTwo"></div>
+      <div class="Skills">Навыки</div>
+      <div class="SkillsHTML">HTML</div>
+      <div class="SkillsCSS">CSS</div>
+      <div class="SkillsJS">JavaScript</div>
+      <div class="SkillsPY">Python</div>
+      <div class="SkillsSQL">SQL</div>
+      
+      <script src="js/modal.js"></script>
+      <script src="js/timer.js"></script>
+      <script src="js/task.js"></script>
+      <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
